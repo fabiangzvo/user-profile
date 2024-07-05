@@ -20,7 +20,14 @@ function Home(): JSX.Element {
           </span>
           <p className={styles.title}>Diseñadora gráfica</p>
         </div>
-        <Image src="/user.png" alt="user" width={900} height={700} />
+        <Image
+          src="/user.png"
+          alt="user"
+          width={0}
+          height={0}
+          sizes="100vw"
+          className={styles.imageUser}
+        />
       </div>
       <div className={styles.rightContent}>
         <Image src="/star.png" alt="user" width={200} height={40} />

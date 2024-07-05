@@ -54,11 +54,11 @@ function HomeBackground(): JSX.Element {
   }, []);
 
   return (
-    <>
+    <div className={styles.container}>
       {points}
       {primaryRectangles}
       {secondaryRectangles}
-    </>
+    </div>
   );
 }
 
