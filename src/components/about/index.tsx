@@ -6,7 +6,13 @@ import styles from "./styles.module.css";
 function About(): JSX.Element {
   return (
     <div id="about" className="secondary-content">
-      <Image src="/about.png" alt="user" width={600} height={600} />
+      <Image
+        className={styles.image}
+        src="/about.png"
+        alt="user"
+        width={600}
+        height={600}
+      />
       <div className={styles.content}>
         <span className={styles.title}>
           Sobre&nbsp;<p className={styles.name}>mí</p>

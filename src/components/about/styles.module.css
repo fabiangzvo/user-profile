@@ -3,6 +3,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media (max-width: 1024px) {
+        top: 8em;
+        flex-wrap: wrap;
+        width: 100%;
+        order: 1;
+
+    }
 }
 
 .title {
@@ -21,4 +29,18 @@
     font-weight: 300;
     color: var(--font-light);
     font-size: 15pt;
+
+    @media (max-width: 640px) {
+        color: var(--font-secondary);
+    }
+}
+
+.image {
+    @media (max-width: 1024px) {
+        order: 2;
+    }
+
+    @media (max-width: 640px) {
+        display: none;
+    }
 }
