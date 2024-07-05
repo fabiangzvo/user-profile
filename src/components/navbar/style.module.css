@@ -12,7 +12,11 @@
   display: flex;
   justify-content: space-between;
   position: fixed;
-    z-index: 1000;
+  z-index: 1000;
+
+  @media (max-width: 1024px) {
+    width: 95%;
+  }
 }
 
 .list {
@@ -22,6 +26,10 @@
   align-items: center;
   padding: 0.5rem;
   justify-content: space-between;
+
+  @media (max-width: 1024px) {
+    width: 50%;
+  }
 }
 
 .list li {
@@ -40,6 +48,10 @@
   font-size: 16pt;
   cursor: pointer;
   text-decoration: none;
+
+  @media (max-width: 1024px) {
+    font-size: 12pt;
+  }
 }
 
 .list>li.current {
@@ -53,8 +65,14 @@
   color: var(--font-tertiary);
   display: flex;
   align-items: center;
+  justify-content: center;
   font-weight: bold;
   font-size: 20pt;
+  text-align: center;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 }
 
 .circle {

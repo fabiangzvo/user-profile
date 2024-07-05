@@ -1,25 +1,19 @@
 "use client";
 
-import { JSX, useMemo } from "react";
+import { JSX, useEffect } from "react";
 import Link from "next/link";
 
 import style from "./style.module.css";
 
 function Navbar(): JSX.Element {
-  const currentPath = useMemo(() => {
-    const { hash } = window.location;
-    console.log(hash);
-    return hash ?? "#home";
-  }, []);
-
   return (
     <div className={style.container}>
       <nav className={style.navbar}>
         <ul className={style.list}>
-          <li className={currentPath === "#home" ? "current" : ""}>
+          <li>
             <Link href="#home">Inicio</Link>
           </li>
-          <li className={currentPath === "#about" ? "current" : ""}>
+          <li>
             <Link href="#about">Sobre mí</Link>
           </li>
         </ul>
@@ -28,10 +22,10 @@ function Navbar(): JSX.Element {
           <div className={style.circle} />
         </div>
         <ul className={style.list}>
-          <li className={currentPath === "#interests" ? "current" : ""}>
+          <li>
             <Link href="#interests">Intereses</Link>
           </li>
-          <li className={currentPath === "#contact" ? "current" : ""}>
+          <li>
             <Link href="#contact">Contacto</Link>
           </li>
         </ul>
