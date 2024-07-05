@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.label {
+    margin-bottom: 1rem;
+}
+
+.container>input,
+.container>textarea {
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    padding: .5rem;
+}
+
+.container>textarea {
+    height: 60px;
+    max-height: 100px;
+}

@@ -1,9 +1,11 @@
 :root {
   --primary: #fd853a;
   --background-primary: white;
-  --background-secondary: #000000;
+  --background-secondary: #F2F4F7;
+    --background-navbar: #000000;
   --font-primary: #171717;
   --font-secondary: #344054;
+  --font-light: #98A2B3;
   --font-tertiary: #ffffff;
 }
 
@@ -19,5 +21,24 @@ body {
   overflow-x: hidden;
 }
 
-body {
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.secondary-content {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 6rem 0rem 6rem;
+  min-height: 100vh;
+  background-color: var(--background-secondary);
+  background-image: url("/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

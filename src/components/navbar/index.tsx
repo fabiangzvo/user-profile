@@ -10,7 +10,7 @@ function Navbar(): JSX.Element {
     const { hash } = window.location;
     console.log(hash);
     return hash ?? "#home";
-  }, [window.location.hash]);
+  }, []);
 
   return (
     <div className={style.container}>
@@ -23,7 +23,10 @@ function Navbar(): JSX.Element {
             <Link href="#about">Sobre mí</Link>
           </li>
         </ul>
-        <div className={style.name}>Dummy name</div>
+        <div className={style.name}>
+          Jenny Design
+          <div className={style.circle} />
+        </div>
         <ul className={style.list}>
           <li className={currentPath === "#interests" ? "current" : ""}>
             <Link href="#interests">Intereses</Link>

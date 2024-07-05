@@ -1,0 +1,49 @@
+.container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9rem 6rem 0rem 6rem;
+    min-height: 100vh;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 30pt;
+    display: flex;
+    color: var(--font-secondary);
+    margin-bottom: 3rem;
+}
+
+.name {
+    color: var(--primary);
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.section {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.paragraph {
+    color: var(--font-light);
+    font-weight: 300;
+}
+
+.label {
+    color: var(--font-secondary);
+    font-size: 20pt;
+    font-weight: 900;
+}

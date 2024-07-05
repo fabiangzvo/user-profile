@@ -1,0 +1,119 @@
+.point1 {
+    position: absolute;
+    z-index: -1;
+    top: 40vh;
+    left: 10vw;
+}
+
+.point2 {
+    position: absolute;
+    z-index: -1;
+    top: 60vh;
+    left: 40vw;
+}
+
+.point3 {
+    position: absolute;
+    z-index: -1;
+    top: 80vh;
+    left: 80vw;
+}
+
+.point4 {
+    position: absolute;
+    z-index: -1;
+    top: 30vh;
+    left: 70vw;
+}
+
+.point5 {
+    position: absolute;
+    z-index: -1;
+    top: 20vh;
+    left: 30vw;
+}
+
+.primaryRectangle1 {
+    position: absolute;
+    z-index: -1;
+    top: 36vh;
+    left: 33vw;
+    transform: rotate(90deg);
+}
+
+.primaryRectangle2 {
+    position: absolute;
+    z-index: -1;
+    top: 15vh;
+    left: 10vw;
+    transform: rotate(90deg);
+}
+
+.primaryRectangle3 {
+    position: absolute;
+    z-index: -1;
+    top: 80vh;
+    left: 90vw;
+    transform: rotate(90deg);
+}
+
+.primaryRectangle4 {
+    position: absolute;
+    z-index: -1;
+    top: 25vh;
+    left: 85vw;
+}
+
+.primaryRectangle5 {
+    position: absolute;
+    z-index: -1;
+    top: 80vh;
+    left: 10vw;
+}
+
+.primaryRectangle6 {
+    position: absolute;
+    z-index: -1;
+    top: 60vh;
+    left: 70vw;
+    transform: rotate(90deg);
+}
+
+.secondaryRectangle1 {
+    position: absolute;
+    z-index: -1;
+    top: 60vh;
+    left: 21vw;
+    transform: rotate(90deg);
+}
+
+.secondaryRectangle2 {
+    position: absolute;
+    z-index: -1;
+    top: 65vh;
+    left: 60vw;
+}
+
+.secondaryRectangle3 {
+    position: absolute;
+    z-index: -1;
+    top: 20vh;
+    left: 50vw;
+    transform: rotate(90deg);
+}
+
+.secondaryRectangle4 {
+    position: absolute;
+    z-index: -1;
+    top: 80vh;
+    left: 30vw;
+    transform: rotate(90deg);
+}
+
+.secondaryRectangle5 {
+    position: absolute;
+    z-index: -1;
+    top: 36vh;
+    left: 73vw;
+    transform: rotate(90deg);
+}

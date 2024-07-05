@@ -7,10 +7,12 @@
 .navbar {
   width: 80%;
   height: 5rem;
-  background-color: var(--background-secondary);
+  background-color: var(--background-navbar);
   border-radius: 50px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+    z-index: 1000;
 }
 
 .list {
@@ -40,7 +42,7 @@
   text-decoration: none;
 }
 
-.list > li.current {
+.list>li.current {
   background-color: var(--primary);
   color: red;
   height: 4rem;
@@ -53,4 +55,18 @@
   align-items: center;
   font-weight: bold;
   font-size: 20pt;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary);
+  border-radius: 50px;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
