@@ -7,6 +7,11 @@
     align-items: center;
     padding: 9rem 6rem 0rem 6rem;
     min-height: 100vh;
+@media (max-width: 768px) {
+        min-height: 100vh;
+        height: 100%;
+        padding: 3rem 2rem 0rem 2rem;
+    }
 }
 
 .title {
@@ -25,6 +30,14 @@
     height: 100%;
     display: flex;
     align-items: center;
+@media (max-width: 768px) {
+        min-height: 100vh;
+        flex-direction: column;
+
+        &>img {
+            display: none;
+        }
+    }
 }
 
 .section {
@@ -46,4 +59,9 @@
     color: var(--font-secondary);
     font-size: 20pt;
     font-weight: 900;
+}
+.item {
+    @media (max-width: 768px) {
+        margin-bottom: 2em;
+    }
 }
